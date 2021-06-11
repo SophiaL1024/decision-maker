@@ -1,11 +1,8 @@
 body {
-  // width: 90vw;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // background: rgb(253,223,70);
-  // background: linear-gradient(90deg, rgba(253,223,70,1) 0%, rgba(69,215,181,1) 80%, rgba(24,214,210,1) 100%);
-
 
 h6{
   display: flex;
@@ -35,7 +32,6 @@ p{
     display: flex;
     justify-content: center;
     margin: 10px 0;
-    // font-size: 20px;
     color: rgb(20, 134, 241);
     animation-name: bounce;
     animation-duration: 1s;
@@ -54,14 +50,12 @@ table {
   justify-content: center;
   padding: 10px;
   margin-bottom: 2em;
-
 }
 
 .rows {
   padding-right: 1.5em;
   padding-left: 1.5em;
   text-align: center;
-
 }
 
 .results {
@@ -73,40 +67,25 @@ table {
   flex-direction: column;
   padding: 10px;
   font-size: 14px;
-  // background-color: #FDFFF5;
-  // background: rgb(253,229,70);
-  // background: linear-gradient(90deg, rgba(253,229,70,1) 0%, rgba(69,215,172,1) 80%, rgba(24,200,214,1) 100%);
-  // background-color: #ffe3c285;
-//   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 
 
 th {
   letter-spacing: 2px;
-  // font-size: 25px;
   border: 1px solid black;
-
   padding: 0.4em;
-
 }
 
 td {
   letter-spacing: 1px;
   font-size: 14px;
   border: 1px solid black;
-
   padding: 0.5em;
-
 }
 
 tbody td {
   text-align: center;
 }
-
-
-
-//bar chart
 
 .options-container{
   width: 90%;
@@ -161,9 +140,6 @@ li{
     height: 50px;
     margin-right: 5px;
     vertical-align: middle;
-    // vertical-align: middle;
-    // display: table-cell;
-    // text-align: center;
     align-items: center;
   }
   font-weight: bold;
