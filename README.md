@@ -12,13 +12,13 @@ Once a poll is created, share the link with your friends! One link to bring user
 ![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/share-a-poll.png)
 
 To vote for a poll use drag-and-drop for your preferred order. Enter your name to submit the poll. Click the option to see the description (if provided)
-![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/choose-your-favourites.png)
+![](https://github.com/SophiaL1024/decision-maker/blob/master/public/img/choose-your-favourites.png)
 
 Users can only submit once!
-![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/single-submission.png)
+![](https://github.com/SophiaL1024/decision-maker/blob/master/public/img/single-submission.png)
 
 The creator of the poll can see the results and the current leader of the poll. Using the [Borda count method](https://en.wikipedia.org/wiki/Borda_count), the poll will tally each submission based on each user's preference and show which option was voted for the most.
-![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/results-page.png)
+![](https://github.com/SophiaL1024/decision-maker/blob/master/public/img/results-page.png)
 
 The user's page shows every poll created. A user can click each poll to see the poll results and can find the link to the poll page here as well. The user can also delete their poll as needed!
 ![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/track-your-polls.png)
