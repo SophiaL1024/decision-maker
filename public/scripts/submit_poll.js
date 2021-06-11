@@ -34,16 +34,16 @@ $(document).ready(() => {
   });
 
 
-  const color2 = ['#fb5057','#fd9644', '#34ace0'];
-  let j = 0;
-  $('.option_list').find('.option_title').each(function() {
-  $(this).css({'background-color':color2[j]});
-  if(j===2){
-    j=0
-  }else{
-    j++;
-  }
-})
+  // const color2 = ['#fb5057','#fd9644', '#34ace0'];
+  // let j = 0;
+  // $('.option_list').find('.option_title').each(function() {
+  // $(this).css({'background-color':color2[j]});
+  // if(j===2){
+  //   j=0
+  // }else{
+  //   j++;
+  // }
+// })
 
 /* $('.option_list').find('.option_title').hover(function() {
   $('.option_list').find('.option_title').each(function() {

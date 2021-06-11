@@ -21,8 +21,8 @@
 
     <!-- <h1>Results for Poll <%= rows[0]['poll_id'] %> </h1> -->
     <div class="results">
-    <h1> <%= rows[0]['name'] %> </h2>
-    <h5> Total participants: <%= num %> </h3>
+    <h6> <%= rows[0]['name'] %> </h6>
+    <p> Total participants: <%= num %> </p>
     <% if (num != 0) { %>
     <p class="winner"><%= rows[0]['title'] %> For The Win! <i class="fas fa-trophy"></i> </p>
     <% } %>
@@ -31,33 +31,9 @@
       <p class="winner">There is no participants yet! </p>
     <% } %>
 
-<!--     <table>
-      <tr>
-
-        <th class="rows">Options</th>
-        <th class="rows">Scores</th>
-        <th class="rows">Ranks</th>
-      </tr>
-
-    <% for (const rowIndex in rows) { %>
-
-        <tr>
-
-          <td class="rows"><%= rows[rowIndex]['title'] %></td>
-          <td><%= sum_rank[rowIndex] %></td>
-          <td class="rows"><%= rankings[rowIndex] %></td>
-        </tr>
-
-    <% } %>
-
-    </table> -->
-
 
     <div class="options-container">
-
-
       <ul>
-
         <% for (const rowIndex in rows) { %>
           <li>
             <div class="bar">

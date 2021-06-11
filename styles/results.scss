@@ -1,21 +1,21 @@
 body {
+  // width: 90vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   // background: rgb(253,223,70);
   // background: linear-gradient(90deg, rgba(253,223,70,1) 0%, rgba(69,215,181,1) 80%, rgba(24,214,210,1) 100%);
-}
 
-h1, h2, h5{
+
+h6{
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 10px auto 0 auto;
 }
-
-
-
-
-
+p{
+  margin: 5px auto 0 auto;
+}
+}
 
   @keyframes bounce {
     0% {
@@ -34,7 +34,8 @@ h1, h2, h5{
   .winner {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    margin: 10px 0;
+    // font-size: 20px;
     color: rgb(20, 134, 241);
     animation-name: bounce;
     animation-duration: 1s;
@@ -67,22 +68,23 @@ table {
   display: flex;
   border: #aaa solid;
   border-radius: 25px;
-  width: 700px;
-  margin: 2em auto;
+  width: 90vw;
+  margin: 50px auto 0 auto;
   flex-direction: column;
   padding: 10px;
-  background-color: #FDFFF5;
+  font-size: 14px;
+  // background-color: #FDFFF5;
   // background: rgb(253,229,70);
   // background: linear-gradient(90deg, rgba(253,229,70,1) 0%, rgba(69,215,172,1) 80%, rgba(24,200,214,1) 100%);
   // background-color: #ffe3c285;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+//   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+}
 
 
 th {
   letter-spacing: 2px;
-  font-size: 25px;
+  // font-size: 25px;
   border: 1px solid black;
 
   padding: 0.4em;
@@ -91,7 +93,7 @@ th {
 
 td {
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 14px;
   border: 1px solid black;
 
   padding: 0.5em;
@@ -112,7 +114,7 @@ tbody td {
   border-radius: 5px;
   margin: auto;
   margin-bottom: 20px;
-  font-size:20px;
+  font-size:12px;
 
   span{
   display: block;
@@ -150,8 +152,9 @@ li{
 }
 
 #logo_polls{
-  padding-left: 5em;
+  padding-left: 1em;
   display:flex;
+  height: 100px;
   align-items: center;
   img{
     width: 50px;
@@ -173,3 +176,32 @@ li{
 
 
 
+@media only screen and (min-width: 768px) {
+  .results{
+    h6{
+      font-size: 24px;
+    }
+    .p{
+      font-size: 20px;
+    }
+    width: 700px;
+    margin: 100px auto 100px auto;
+    font-size: 20px;
+  }
+  .bar{
+    font-size: 20px;
+  }
+  #logo_polls{
+    margin:0 5vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .results{
+    width: 700px;
+    font-size: 24px;
+  }
+  #logo_polls{
+    margin:0 10vw;
+  }
+}
