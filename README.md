@@ -24,9 +24,9 @@ The user's page shows every poll created. A user can click each poll to see the 
 ![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/track-your-polls.png)
 
 The app is response for mobile devices as well!
-![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/responsive1.png)
-![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/responsive2.png)
-![](https://raw.githubusercontent.com/davidclaveau/decision-maker/master/public/img/responsive3.png)
+![](https://github.com/SophiaL1024/decision-maker/blob/master/public/img/responsive1.png?raw=true)
+![](https://github.com/SophiaL1024/decision-maker/blob/master/public/img/responsive2.png?raw=true)
+![](https://github.com/SophiaL1024/decision-maker/blob/master/public/img/responsive3.png?raw=true)
 
 ## Getting Started
 
