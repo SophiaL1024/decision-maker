@@ -14,7 +14,7 @@
 
 * [✓] As a voter, I can see all the options, because I need to vote.
 
-* [✓] As a voter, I can enter my name, <del>if I choose to</del>, because I want the creator knowns whose submit it is.
+* [✓] As a voter, I can enter my name,  because I want the creator knowns whose submit it is.
 
 * [✓] As a voter, I can rank the options, because I want to rank my favorite.
 
@@ -56,19 +56,17 @@ mixture of horizontal and vertical approach
 * Polls route: prefix(polls)
 polls/:poll_id               get  --- page for a specific poll (Link we send to voters)   ---Feng
 polls/:poll_id               post --- submit the vote  ---Feng
-<!-- polls/:poll_id/guest_name    get ---for user to see one submission ---Zio -->
 polls/:poll_id/results        get --- final count for votes ---Zio
 
 #### Ejs Templates
 * /index                      ---for users to create polls  ---David
 * /user/:user_id              ---for users to admin all his polls ---Feng
 * polls/:poll_id              --- Link send to voters ---Feng
-<!-- * polls/:poll_id/submission_id   ---for user to see one submission  -->
 * polls/:poll_id/results       ---final result page of a poll  ---Zio
 
 ### Sunday:
 
-# Impove web page functions
+#### Impove web page functions
 * /index                     ---David
 * /user/:user_id             ---Feng
 * /polls/:poll_id            ----Zio
@@ -76,7 +74,7 @@ polls/:poll_id/results        get --- final count for votes ---Zio
 
 ### Monday:
 
-# Impove web page functions
+#### Impove web page functions
 * /index                     ---David
 * /user/:user_id             ---Feng
 * /polls/:poll_id            ----Zio
@@ -84,7 +82,7 @@ polls/:poll_id/results        get --- final count for votes ---Zio
 
 ### Tuesday:
 
-# Impove web page functions and make CSS stylesheet
+#### Impove web page functions and make CSS stylesheet
 * /index                     ---David
 * /user/:user_id             ---Feng
 * /polls/:poll_id            ----Zio
@@ -92,7 +90,7 @@ polls/:poll_id/results        get --- final count for votes ---Zio
 
 ### Wednesday:
 
-# Impove CSS stylesheet
+#### Impove CSS stylesheet
 * /index                     ---David
 * /user/:user_id             ---Feng
 * /polls/:poll_id            ----Zio
@@ -100,9 +98,9 @@ polls/:poll_id/results        get --- final count for votes ---Zio
 
 ### Thursday:
 
-# Plan the presentation and clean codes.
+#### Plan the presentation and clean codes.
 
-### Friday:
+
 
 
 ## Warnings & Tips:

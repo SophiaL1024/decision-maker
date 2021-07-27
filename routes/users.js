@@ -9,9 +9,9 @@ router.get('/:id', (req, res) => {
 
   //If cookie dosen't match url parameter, send an error menssage
   if (req.params.id !== req.cookies.user_id) {
-      const error = '401'
-      const templateVars = { error }
-      res.render("error.ejs", templateVars);
+    const error = '401';
+    const templateVars = { error };
+    res.render("error.ejs", templateVars);
   } else {
     userQueries.getAllPollByUserId(req.params.id)
       .then(user => {
@@ -39,8 +39,8 @@ router.get('/:id', (req, res) => {
         res.render("users.ejs", templateVars);
       })
       .catch(err => {
-        const error = '500'
-        const templateVars = { error }
+        const error = '500';
+        const templateVars = { error };
         res.render("error.ejs", templateVars);
       });
   }
@@ -48,11 +48,11 @@ router.get('/:id', (req, res) => {
 
 // POST /users/:id
 //Delete polls
-router.post('/:id', (req) => {
+router.post('/:id', (res,req) => {
   userQueries.deletePoll(req.body.pollId)
     .catch(err => {
-      const error = '500'
-      const templateVars = { error }
+      const error = '500';
+      const templateVars = { error };
       res.render("error.ejs", templateVars);
     });
 });

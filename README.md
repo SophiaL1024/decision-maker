@@ -30,10 +30,14 @@ The app is response for mobile devices as well!
 
 ## Getting Started
 
-1. Fork this repository, then clone your fork of this repository.
+1. Clone this repository.
 2. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at http://localhost:8080/.
-4. Go to http://localhost:8080/ in your browser.
+3. Create a local database by PostgreSQL using the following commands (replace your_username and your_password in the commands with your choice): psql -U postgres, CREATE ROLE your_username WITH LOGIN password 'your_password';, CREATE DATABASE decision_maker OWNER your_username;.
+4. Register a free account in Mailgun(https://www.mailgun.com/).
+5. Create a .env file based on .env.example. 
+6. Update the .env file with your local database information and Mailgun config information set in the previous step.
+7. Start the web server using the `npm run local` command. The app will be served at http://localhost:8080/.
+8. Go to http://localhost:8080/ in your browser.
 
 ## Dependencies
 
