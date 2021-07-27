@@ -24,7 +24,7 @@
   <body>
     <main class="main">
 
-      <h1>Welcome to <span id="d">D</span>ecision <span id="m">M</span>aker</h1>
+      <h1 id='title'>Welcome to <span id="d">D</span>ecision <span id="m">M</span>aker</h1>
 
       <% if (!userId) { %>
 
@@ -41,7 +41,7 @@
           <form action="/index" method="POST" id="poll-form">
 
             <div class="poll-name-container">
-              <h3>Poll Question</h3>
+              <h3 id='question-title'>Poll Question</h3>
               <textarea type="text" name="pollName" id="poll-name" required placeholder="Ex. What do you prefer?"></textarea>
             </div>
 
@@ -83,7 +83,7 @@
           </form>
         </section>
 
-        </section>
+
       <% } %>
     </main>
 

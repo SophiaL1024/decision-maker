@@ -174,7 +174,7 @@ button#add-option {
     justify-content: space-around;
     flex-direction: column;
     width: 100%;
-    margin-right: 2.5%;
+    // margin-right: 2.5%;
   }
 
   .description-container {
@@ -430,7 +430,6 @@ div.error-message {
 
     .description-container {
       margin: 1em;
-      margin-right: 1.8em;
     }
   }
 
@@ -488,7 +487,27 @@ div.error-message {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
+  #title{
+    font-size:1em ;
+  }
+  #question-title{
+    font-size:1em ;
+  }
+  .create-poll{
+    padding:10px 40px
+  }
+  .poll-name-container, .option-container, .description-container{
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  ::placeholder{
+    font-size: 0.7em;
+  }
+  textarea {
+    height: 40px;
+  }
+
   .login {
     flex-direction: column;
   }
